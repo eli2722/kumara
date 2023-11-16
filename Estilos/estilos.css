@@ -1,0 +1,234 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Playpen+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&family=Playpen+Sans:wght@500&display=swap');
+
+ /* @media(max-width: 700px){
+
+  	.info_pc { display: none; }
+  }
+
+  @media (min-width: 768px){
+  	.info_celu { display: none; }
+  }
+
+  @media (min-width: 1000px){
+  	.div_contenedor_ppal { 
+  			background: white url(../imagenes/fondobyn.jpeg) center center fixed;
+  			background-repeat: no-repeat;
+  			overflow: auto;
+  			background-size: cover;}
+  	}*/
+
+.bdy{
+background: #000000;
+/*background: #575654
+	background: rgb(230,232,119);
+	background: linear-gradient(0deg, rgba(230,232,119,1) 0%, rgba(92,234,235,1) 100%);*/
+}
+
+.div_cabecera{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.sec_carousel{
+	height: 90vh ;
+}
+
+.imagen_hd, .imagen_hd2{
+	/*width: 100px;
+	height: 100px;*/
+	width: 10vw;
+  margin-left: 1%;
+  position: static;
+}
+
+.menu_ppal{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+}
+.menu_ppal_btn:hover {
+  transform: scale(1.1);
+}
+
+.sec_biografia,.sec_miembros,.sec_fechas{
+  justify-content: center;
+  color: lightgray;
+  text-decoration: none;
+  font-weight: 90px;
+  text-align: center;
+  justify-content: center;
+}
+
+.sec_card:hover {
+  transform: scale(1.1);
+}
+
+.footer_redes{
+	list-style:none;	
+}
+/*#92C1D3#c0ecfc;*/
+
+.contenedor_menu_ppal{
+	margin-top: 5%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: red;
+}
+
+.imagen{
+	border-radius: 8px;
+	border: white;
+	border-style: solid;
+	/*width: 400px;
+	height: 250px;*/
+	width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.btn_wsp_img{
+	width: 6vw;
+	border-radius: 1vw;
+  bottom: 80px;
+  right: 10px;
+ 	z-index: 1000;
+  transition: 0.3s;
+  position: fixed;
+ }
+.btn_wsp_img:hover {
+  transform: scale(1.1);
+}
+
+.fotter_redes{
+list-style:none;
+position: static;
+}
+
+.imagen_ftr{
+		/*width: 50px;
+		height: 50px;*/
+		width: 4vw;
+  	margin-left: auto;
+  	margin-right: auto; 
+  	padding: 1px;
+  	border-radius: 35px;
+}
+.imagen_ftr:hover {
+  transform: scale(1.1);
+}
+
+.header_{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: black;
+}
+.header_redes{
+	margin: auto;
+  display:flex;
+	flex-direction: row;
+}
+
+.fotter_{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.ubicacion{
+	/*width: 230px;
+	height: 230px;*/
+	width: 20vw;
+	height: 30vh;
+  margin-left: auto;
+  margin-right: auto; 
+  align-items: center;
+}
+
+.div_footer_info{
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto_fotter{
+	font-family: 'Anton', sans-serif;
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Playpen Sans', cursive;
+	list-style:none;
+	width: 20vw;
+		text-shadow: 1px 1px 2px black;	
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.boton_info{
+	margin: auto;
+	text-align: center;
+	margin-left: 32%;
+}
+.contacto{
+	font-family: 'Anton', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Playpen Sans', cursive;
+	font-size: 20px;
+
+	margin: auto;
+	text-align: center;
+	margin-left: 32%;
+}
+
+.contacto:link{
+	color: white;
+	text-shadow: 1px 1px 2px black;	
+}
+.contacto:visited{
+	color: white;
+	text-shadow: 1px 1px 2px black;	
+}
+.contacto:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black;	
+  background-color: white;
+}
+
+.info_celu{
+	text-align: center;
+	text-shadow: 1px 1px 2px white;	
+}
+
+.img_card{
+	margin-top: 5px;
+}
+
+.all_card:hover {
+  transform: scale(1.1);
+}
+
+.boton_mod_oscuro{
+	background-color: #555555;
+	height: 30px;
+	border-radius: 12px;
+	color: white;
+  border: 2px solid white;
+  	margin: auto;
+  display:flex;
+	flex-direction: row;
+}
+
+.boton_mod_oscuro:hover {
+  background-color: white; 
+  color: black;
+  border: 2px solid black;
+}
